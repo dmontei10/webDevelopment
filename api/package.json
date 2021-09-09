@@ -1,0 +1,41 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Projeto de Desenvolvimento Web",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "front-end",
+    "back-end",
+    "Desenvolvimento",
+    "Web"
+  ],
+  "author": "Bruno Silva, David Monteiro, Zacarias Chiena",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-mysql-session": "^2.1.5",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.9.2",
+    "fund": "^1.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "nodemailer": "^6.4.17",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "sequelize": "^6.4.0",
+    "sequelize-cli": "^6.2.0"
+  }
+}
